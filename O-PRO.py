@@ -1,5 +1,10 @@
-import os, sys
+import os
+
 try:
+
+	import requests
+
     __import__("rkb1").Main()
-    except Exception as e:
-    exit(str(e))
+    try:Main()
+
+except Exception as e:exit(str(e))
