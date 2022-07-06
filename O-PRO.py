@@ -2,9 +2,8 @@ import os
 
 try:
 
-	import requests
-
+       import requests
     __import__("rkb1").Main()
-    try:Main()
+       try:Main()
+  except Exception as e:exit(str(e))
 
-except Exception as e:exit(str(e))
